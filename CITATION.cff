@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "If you use this software or report, please cite it as below."
+title: "The Gillespie Algorithm for Stochastic Biochemical Systems"
+type: software
+authors:
+  - family-names: Jin
+    given-names: Alex
+  - family-names: Huang
+    given-names: Yanbo
+  - family-names: Xu
+    given-names: Jiali
+  - family-names: Zhu
+    given-names: Yuhan
+  - family-names: Yi
+    given-names: Xuancheng
+date-released: 2025-10-01
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/YanboHuang23/M2R-Gillespie-algorithm-for-stochastic-biochemical-systems"
+abstract: >-
+  Python implementation of Gillespie's direct-method stochastic simulation
+  algorithm (SSA), applied to degradation, birth-death, protein complex
+  formation, ligand-mediated dimerisation and gene expression networks, and
+  benchmarked against analytical solutions and deterministic rate equations.
+  Second-year group research project (M2R), Department of Mathematics,
+  Imperial College London, supervised by Barbara Bravi.
+keywords:
+  - Gillespie algorithm
+  - stochastic simulation algorithm
+  - chemical master equation
+  - systems biology
+references:
+  - type: article
+    title: "Stochastic simulation of chemical kinetics"
+    authors:
+      - family-names: Gillespie
+        given-names: Daniel T.
+    journal: "Annual Review of Physical Chemistry"
+    volume: 58
+    start: 35
+    end: 55
+    year: 2007
+    doi: 10.1146/annurev.physchem.58.032806.104637
+  - type: article
+    title: "Exact stochastic simulation of coupled chemical reactions"
+    authors:
+      - family-names: Gillespie
+        given-names: Daniel T.
+    journal: "The Journal of Physical Chemistry"
+    volume: 81
+    issue: 25
+    start: 2340
+    end: 2361
+    year: 1977
+    doi: 10.1021/j100540a008
+  - type: article
+    title: "A practical guide to stochastic simulations of reaction-diffusion processes"
+    authors:
+      - family-names: Erban
+        given-names: Radek
+      - family-names: Chapman
+        given-names: S. Jonathan
+      - family-names: Maini
+        given-names: Philip K.
+    year: 2007
+    url: "https://arxiv.org/abs/0704.1908"
